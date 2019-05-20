@@ -155,3 +155,7 @@
 # DRM
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.widevine            u:object_r:hal_drm_widevine_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey            u:object_r:hal_drm_clearkey_exec:s0
+
+# Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)?                                       u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                                     u:object_r:kcal_dev:s0
