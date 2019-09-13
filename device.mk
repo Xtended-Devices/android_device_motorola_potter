@@ -380,6 +380,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.msm8953
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgpu_mapper_shim 
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-potter.conf:$TARGET_COPY_OUT_VENDOR/etc/thermal-engine.conf
 
