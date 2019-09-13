@@ -232,7 +232,7 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext
+    #telephony-ext
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
@@ -436,6 +436,6 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
-    WfdCommon
+    #WfdCommon
 
 $(call inherit-product, vendor/motorola/potter/potter-vendor.mk)
